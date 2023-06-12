@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta name="author" content="etec-c">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Início</title>
+
+    <script src="https://kit.fontawesome.com/c8de44c573.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="C:/Users/joao pedro/Downloads/BusHub/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @font-face {
+            font-family: Made Tommy;
+            src: url(/BusHub/bootstrap-5.3.0-dist/Madetommy.otf);
+        }
+
+        .fonteprincipal{
+            font-family: "Made Tommy";
+        }
+
+        .mapa{
+            width: 500px;
+            height: 550px;
+            background-color: #cadd08;
+            float: left;
+            border-radius: 15px;
+            margin-left: 26px;
+            font-family: "Made Tommy";
+        }
+    
+        .linhas{
+          width: 250px;
+            height: 550px;
+            background-color: #ffffff;
+            float: left;
+            border-radius: 15px;
+            margin-left: 20px;
+            border-color: #cadd08;
+            border-style: solid;
+            border-width: 15px;
+            font-family: "Made Tommy";
+        }
+        p{
+          margin: 10px;
+        }
+        .rodape{
+          position: fixed;
+          bottom: 0;
+          width: 1319px;
+          height: 17px;
+          background-color: #afb0af;
+          font-family: "Made Tommy";
+          color:#ffffff;
+          clear: both;
+          font-size: smaller;
+          line-height: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class ="fonteprincipal">
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container-fluid">
+          <img src="C:/Users/joao pedro/Downloads/BusHub/icone_v1.png" width="35" height="45" class="d-inline-block align-top" alt="">
+          <a class="navbar-dark" style="color:white; font-size: 25px;"href="#">BusHub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <div class="grid gap-3">
+                <form class="d-lg-flex md-0 p-0" role="search">
+                  <div class="p-1 g-col-6" style = "width: 300 px;">              
+                    <input class="form-control col-md-0" type="search" placeholder="Buscar" aria-label="Search">
+                    </div>
+                    <div class="p-1 g-col-6">
+                    <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                  </form>
+                </div>
+
+                  <div class="container text-center grid gap-0 column-gap-3">
+                    <div class="row align-items-start">
+
+              <div class="col g-col-6">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Linhas</a>
+              </li>
+              </div>
+
+              <div class="col g-col-6">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Horários</a>
+              </li>
+              </div>
+
+              <div class="col g-col-6">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Ação</a>
+                  <a class="dropdown-item" href="#">Outra ação</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Algo mais aqui</a>
+                </div>
+              </li>
+            </div>
+              </div>
+            </div>
+            </div>
+
+            </ul>      
+          </div>
+        </div>
+
+      </nav>
+
+</div>
+<br>
+
+<div class="mapa">
+  <p style ="margin: 10px; font-size: 25px;">Ponto - ETEC Prof.Carmine Biagio Tundisi</p>
+
+<div class="superior" style=" width: 479px;height: 405px; float:left; background-color: rgb(255, 255, 255);margin: 10px ;">
+  <p>aqui jás mapbox-gl-directions</p>
+</div>
+
+<div style ="clear: both;">
+  <div class="esquerda" style = "width: 350px; float: left;">
+  <div style="margin: 10px 10px 10px 10px;">
+  <input class="form-control" type="search" placeholder="Buscar pontos">
+  </div>
+  </div>
+
+  <div class="esquerda" style = "float:left;" >
+    <div style="margin: 10px 10px 10px 10px;">
+  <button class="btn"><i class="fa-solid fa-magnifying-glass-plus fa-2xl" style="color: #ffffff;"></i></button>
+  <button class="btn"><i class="fa-solid fa-magnifying-glass-minus fa-2xl" style="color: #ffffff;"></i></button>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="linhas" style="color: black;">
+<p>funciona pufavo</p>
+<p>ovo goza</p>
+<p>linha vai se fuder</p>
+<p>morra lula</p>
+<p>morra bolsonaro</p>
+<p>eu quero minha mamãe</p>
+<p>te amo bia, amor da minha vida</p>
+<p>fofo lol</p>
+
+<div class="rodape">
+<p>© ETEC Atibaia - Todos os direitos reservados</p>
+</div>
+</body>
+
+</html>
