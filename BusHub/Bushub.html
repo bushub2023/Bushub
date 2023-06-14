@@ -20,7 +20,38 @@
             font-family: Made Tommy;
             src: url(/BusHub/bootstrap-5.3.0-dist/Madetommy.otf);
         }
+        /* para definir uma fonte usa o seletor global caso queira definir para o projeto inteiro
+        --exemplo -> *{
+          font-family: "Made Tommy";
+        }
+        tenta não usar position fixed, o fixed é usado para deixar como flutuante
+        --display: flex; --> resolve boa parte das coisas usa o grid também customiza algumas coisas
+        entra no site da semanti-ui para dar uma olhada combina ela com o bootstrap, se for usar bootstrap no projeto todo, acho que vale a pena usar jQuery no lugar de JS puro
+        --------------------------------------------------------------
+        sass ou scss no lugar de css puro vai agilizar sua estilização...
+        --exemplo -> .rodape{
+          color: black;
+          p{
+            font-size: 14px; -- em font-size da para usar rem ou em que vai se adequar aos demais elementos da página
 
+          }
+        }
+        se for usar css puro vai ter que montar blocos separados --> .rodape{
+          color: black;
+        }
+        .rodape p{
+          font-size: 14px;
+        }
+        ----------------------------------------------------------
+        tenta usar br somente nos textos se usar em divs vai pular a linha e não o conteúdo inteiro
+        ----------------------------------------------------------
+        no .rodape usa a tag footer em vez de div é a tag recomendada na semantica do html5 tenta sempre usar as semanticas que fica mais facil de diferenciar quando termina o conteúdo do body dos demais header, footer, aside, main...
+        ---------------------------------------------------------
+        vi ali que alocou a estilização na pasta do seu PC, se ainda estiver cria uma pasta para o CSS 
+        link para configuração do semantic UI https://semantic-ui.com/introduction/getting-started.html
+        link Scss https://sass-lang.com/
+        
+        */
         .fonteprincipal{
             font-family: "Made Tommy";
         }
